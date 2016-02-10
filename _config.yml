@@ -1,0 +1,29 @@
+# Site settings
+title: Sriram
+description: Android developer 
+url: 'http://srir.am' 
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+
+author:
+  name: 'Sriram'
+  email: 'sram.bms@gmail.com'
+  twitter_username: 
+  github_username:  SriramBms
+  linkedin_username:  sriramsh
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: pygments
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
