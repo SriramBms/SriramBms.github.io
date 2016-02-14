@@ -58,6 +58,16 @@
               </li>
             {% endif %}
 
+            {% if site.author.dribbble_username %}
+              <!-- Dribbble -->
+              <li class="navigation__item">
+                <a href="https://dribbble.com/{{ site.author.dribbble_username }}" title="{{ site.author.dribbble_username }} on Dribbble" target="_blank">
+                  <i class="icon icon-social-dribbble"></i>
+                  <span class="label">Dribbble</span>
+                </a>
+              </li>
+            {% endif %}
+
             {% if site.author.email %}
               <!-- Email -->
               <li class="navigation__item">
