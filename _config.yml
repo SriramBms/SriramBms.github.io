@@ -19,6 +19,7 @@ paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
 highlighter: pygments
+excerpt_separator: <!--more-->
 
 kramdown:
   # use Github Flavored Markdown
