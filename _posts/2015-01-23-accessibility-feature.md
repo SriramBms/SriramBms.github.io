@@ -10,7 +10,7 @@ header-img: "img/post-bg-01.jpg"
 ---
 
 This was my entry for the UB Hackathon. My idea was to add a new accessibility feature for the color blind. People who are color blind are unable to distinguish between two colors. The most common type is the inability to distinguish between green and red. My solution was to to simply replace the green with blue, which is a combination that they can distinguish.  
-
+<!--more-->
 I used Jeff Sharkey's code [^code]  to manipulate the colors. It doesn't exactly swap the colors as I didn't have the time to play with openGL, so I just blended other colors to get the desired effect. People who are colorblind can use the Ishihara color test plate[^ishi] and go through the available modes and pick one that works for them. The settings are merged with the existing 'Accessibility' option. I reused the JNI interface I had written for a previous project for communicating the setting to the SurfaceFlinger module. I modified SurfaceFlinger to read the system properties updated through the JNI interface and use that value to apply the corresponding color scheme. It's not an efficient way to do this, since SurfaceFlinger ends up querying the system property everytime it draws on the screen but I didn't notice any lag or unresponsiveness due to these changes. The entire project was written over a period of two days and some of the color modes might not be usable at all as I didn't have any way to test it, but a proper implementation of this idea should first go through the 24 Ishihara plates to first determine the type of color blindness and then present a set of color options to choose from. 
 
 

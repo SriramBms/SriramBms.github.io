@@ -14,7 +14,7 @@ In the root folder,
 `. build/envsetup.sh`<br>
 `lunch sdk-eng ` <br>
 `make sdk `
-
+<!--more-->
 
 
 Once it's done, the sdk can be found in the `/out/host/linux-x86/sdk/` folder. The simplest way to use the new sdk, in case you've added a new API, is by adding the new `android.jar`to build path.  
