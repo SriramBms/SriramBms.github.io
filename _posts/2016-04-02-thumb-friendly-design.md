@@ -28,7 +28,7 @@ Though the reaction to Android FloatingActionButtons from the design community i
 
 Contextual menu items can be displayed in the bottom action bar instead of the top one making it more accessible. 
 
-![Bottom action bar](https://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B3321sZLoP_HZjN1eld5MjRXb2s/components_bottomnavigation_usage1.png" Bottom action bar")
+![Bottom action bar](https://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B3321sZLoP_HZjN1eld5MjRXb2s/components_bottomnavigation_usage1.png "Bottom action bar")
 
 *[Figure: top action bar and bottom action bar](https://www.google.com/design/spec/components/bottom-navigation.html#bottom-navigation-usage)*
 
