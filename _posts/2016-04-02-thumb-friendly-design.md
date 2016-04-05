@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Building thumb-friendly designs"
+title:      "Building thumb-friendly apps"
 subtitle:   ""
 date:       2016-04-02 15:03:03
 author:     "Sriram"
@@ -28,9 +28,9 @@ Though the reaction to Android FloatingActionButtons from the design community i
 
 Contextual menu items can be displayed in the bottom action bar instead of the top one making it more accessible. 
 
-![Bottom action bar](http://developer.android.com/design/media/action_bar_cab.png "Bottom action bar")
+![Bottom action bar](https://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B3321sZLoP_HZjN1eld5MjRXb2s/components_bottomnavigation_usage1.png" Bottom action bar")
 
-*[Figure: top action bar and bottom action bar](http://developer.android.com/design/patterns/actionbar.html)*
+*[Figure: top action bar and bottom action bar](https://www.google.com/design/spec/components/bottom-navigation.html#bottom-navigation-usage)*
 
 I'll be adding more to this list as I think of them. Feel free to share your thoughts.
 
