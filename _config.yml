@@ -3,7 +3,7 @@ title: Sriram
 description: Android developer—among other things 
 url: 'http://srir.am' 
 baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-75982361-1'
 
 author:
   name: 'Sriram'
@@ -18,7 +18,7 @@ destination: _site
 paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 excerpt_separator: <!--more-->
 
 kramdown:

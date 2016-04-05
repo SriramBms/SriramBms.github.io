@@ -18,7 +18,7 @@ A few ways to build such 'thumb-friendly' apps
 
 ### Use lists
 
-Grids are suitable for images but for content that primarily text, ListViews and single or double-column CardViews are a better choice since all list elements can be easily scrolled to pass within the range of the thumb. 
+Grids are suitable for images but for content that is primarily text, ListViews and single or double-column CardViews are a better choice since all list elements can be easily scrolled to pass within the range of the thumb. 
 
 ### Use FloatingActionButtons
 
