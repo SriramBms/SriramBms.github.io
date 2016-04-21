@@ -30,7 +30,7 @@ Contextual menu items can be displayed in the bottom action bar instead of the t
 
 ![Bottom action bar](https://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B3321sZLoP_HZjN1eld5MjRXb2s/components_bottomnavigation_usage1.png "Bottom bar")
 
-*[Figure: top action bar and bottom action bar](https://www.google.com/design/spec/components/bottom-navigation.html#bottom-navigation-usage)*
+*[Figure: Bottom action bar](https://www.google.com/design/spec/components/bottom-navigation.html#bottom-navigation-usage)*
 
 I'll be adding more to this list as I think of them. Feel free to share your thoughts.
 
